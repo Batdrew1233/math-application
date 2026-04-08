@@ -24,6 +24,21 @@ public class MathApp {
         double squareRoot = Math.sqrt(number1);
         System.out.println("The square root of 5.0 is: " + Math.round(squareRoot *100.0)/100.0);
 
+        //Find Distance
+        int x1 = 5;
+        int y1 = 10;
+        int x2 = 85;
+        int y2 = 50;
+        double distance = Math.round(Math.sqrt(Math.pow(x2 - x1,2) + Math.pow(y2 - y1, 2))*100.0)/100.0;
+        System.out.println("The distance between the points are " + distance);
+
+        //Absolute Value
+        double number2 = -3.8;
+        double absouluteValue = Math.abs(number2);
+        System.out.println("The absolute value of -3.8 is: " + absouluteValue);
+
+
+
 
 
 
