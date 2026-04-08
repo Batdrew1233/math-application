@@ -37,6 +37,12 @@ public class MathApp {
         double absouluteValue = Math.abs(number2);
         System.out.println("The absolute value of -3.8 is: " + absouluteValue);
 
+        //Display random number between 0 and 1
+        double randomNumber = Math.random();
+        System.out.println(randomNumber);
+
+        //
+
 
 
 
